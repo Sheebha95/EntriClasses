@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        h1,h5{
+            text-align: center;
+            color: white;
+        }
+        #signin{
+            background-color: brown;
+        }
+        #form1{
+            background-color: green;
+            border-style:solid;
+            border-color: green;
+            text-align: left;
+            width: 60%;
+            height: 60%;
+        }
+    </style>
+</head>
+<body style="background-color:cornflowerblue;">
+    <h1>Sign In</h1>
+    <h5>Sign in with your username and password</h5><form action="" id="form1">
+    <label for="Uname">Your Username</label><br>
+    <input type="text" id="Uname" name="Uname" required><br><br>
+    <label for="Pwd">Your Password</label><br>
+    <input for="Password" id="Pwd" name="Pwd"></input><br><br>
+    <input type="checkbox" id="rem" name="rem" value="Remeber Me">Remeber Me
+    <a href="forgot.html">Forgot Password?</a><br><br>
+    <input type="button" name="signin" id="signin" value="Sign In">
+    <p>Not a Memeber?<a href="Signup.html">Register Here</a></p>
+</form>
+</body>
+</html>
