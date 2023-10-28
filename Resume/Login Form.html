@@ -19,21 +19,27 @@
             margin: 50px 50px 50px 100px;
         }
         input, label,p{
-            margin-left: 100px;
-           }
+            margin-left: 50px;
+        }
+        .cls{
+            width: 70%;
+        }
+        a{
+            margin-left: 50px;
+        }
     </style>
 </head>
 <body style="background-color:cornflowerblue;">
     <h1>Sign In</h1>
     <h5>Sign in with your username and password</h5>
     <form action="" id="form1">
-    <label for="Uname">Your Username</label><br>
-    <input type="text" id="Uname" name="Uname" required><br><br>
-    <label for="Pwd">Your Password</label><br>
-    <input for="Password" id="Pwd" name="Pwd"></input><br><br>
+    <label for="Uname" class="cls">Your Username</label><br>
+    <input type="text" id="Uname" name="Uname" class="cls" required><br><br>
+    <label for="Pwd" class="cls">Your Password</label><br>
+    <input for="Password" id="Pwd" name="Pwd" class="cls"></input><br><br>
     <input type="checkbox" id="rem" name="rem" value="Remeber Me">Remeber Me
     <a href="forgot.html">Forgot Password?</a><br><br>
-    <input type="button" name="signin" id="signin" value="Sign In">
+    <input type="button" name="signin" id="signin" value="Sign In" class="cls">
     <p>Not a Memeber?<a href="Signup.html">Register Here</a></p>
 </form>
 </body>
