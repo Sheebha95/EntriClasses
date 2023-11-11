@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table, th, td{
+            border: 3px solid crimson;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td{
+            text-align: center;
+            color: indigo;
+        }
+        th{
+            padding: 10px;
+            color: darkblue;
+            background-color: greenyellow;
+        }
+        .name-in-td{
+            text-transform: lowercase;
+            font-family: cursive;
+        }
+        .bg-change{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h2>Let's Create Tables</h2>
+    <table>
+        <tr>
+            <th>SNo</th>
+            <th>Name</th>
+            <th>Phone Number</th>
+            <th>Instagram ID</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class="name-in-td">Sekhar</td>
+            <td>9550867767</td>
+            <td>Sekhar_vs</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class="name-in-td">Sheeba</td>
+            <td>8977025070</td>
+            <td>sheeba_ms_d</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Poojitha</td>
+            <td>1234567890</td>
+            <td>call_me_puji</td>
+        </tr>
+        <tr class="bg-change">
+            <td>1</td>
+            <td>Sekhar</td>
+            <td>9550867767</td>
+            <td>Sekhar_vs</td>
+        </tr>
+        <tr class="bg-change">
+            <td>2</td>
+            <td>Sheeba</td>
+            <td>8977025070</td>
+            <td>sheeba_ms_d</td>
+        </tr>
+    </table>
+</body>
+</html>
