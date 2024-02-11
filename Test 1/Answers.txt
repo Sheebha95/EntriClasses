@@ -1,0 +1,120 @@
+Test: Web Development Fundamentals
+
+
+Section A: 
+1. Multiple Choice Questions (20 marks)
+What does HTML stand for?
+a) Hyper Text Markup Language
+b) Hyperlinks and Text Markup Language
+c) Home Tool Markup Language
+d) Hyper Tool Markup Language
+
+Ans: a) Hyper Text Markup Language
+
+2. Which of the following is NOT a valid CSS property?
+a) font-family
+b) background-color
+c) text-style
+d) margin
+
+Ans: c) text-style
+
+3. Which event is triggered when a user clicks on an HTML element?
+a) mouseover
+b) click
+c) keydown
+d) hover
+
+Ans: b) click
+
+4. In JavaScript, what does the === operator do?
+a) Assigns a value to a variable
+b) Checks if two values are equal in both value and type
+c) Checks if two values are equal in value but not necessarily in type
+d) None of the above
+
+Ans: b) Checks if two values are equal in both value and type
+
+5. What is the purpose of React props?
+a) To store and manage component-specific data
+b) To pass data from parent to child components
+c) To handle user interactions
+d) None of the above
+
+Ans: b) To pass data from parent to child components
+
+
+Section C: Bonus Question
+
+1. Explain the concept of React state and how it differs from props.
+
+Ans: State is passed data within the internal component only. Props are passed properties to one component to another component that is parent component to child component. 
+
+
+Test: JavaScript Fundamentals
+
+Section A: Multiple Choice Questions (20 marks)
+
+1. Which of the following is used to declare an array in JavaScript?
+a) {}
+b) []
+c) ()
+d) <>
+
+Ans: b) []
+
+2. What does the indexOf method return if the element is not found in the array?
+a) -1
+b) 0
+c) undefined
+d) null
+
+Ans: c) undefined
+
+3. What does the charAt method return if the character is not found in the string?
+a) -1
+b) 0
+c) undefined
+d) null
+
+Ans: d) null
+
+4. In JavaScript, objects are enclosed in:
+a) {}
+b) []
+c) ()
+d) <>
+
+Ans: a) {}
+
+5. What is the correct syntax for an if-else statement in JavaScript?
+a) if condition { // code block } else { // code block }
+b) if condition ( // code block ) else ( // code block )
+c) if (condition) { // code block } else { // code block }
+d) if (condition) [ // code block ] else [ // code block ]
+
+Ans: c) if (condition) { // code block } else { // code block }
+
+
+Section C: Bonus Question (10 marks)
+
+1. Explain the difference between for and for...in loops in JavaScript. When would you use each one?
+
+Ans: For: Iterates the items for when we have fixed the iteration. for is using the strings, arrays
+
+     let str="Javascript"
+     for(let 1=0;i<=str.length;i++){
+        console.log(str[i])
+     }
+
+     For...in Iterates the items for when we have fixed the iteration. for is using the strings, arrays, objects
+     
+     let arr1=[5,4,6,7,8]
+     for(let i in arr1){
+        console.log(arr1[i])
+     }
+
+
+
+
+
