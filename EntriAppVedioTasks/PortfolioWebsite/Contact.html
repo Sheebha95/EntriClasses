@@ -35,9 +35,41 @@
              </ul>  
             </div>
         </div>
-    </nav>
-    <h1>Contact Page</h1>
+    </nav>  
+    <!-- <h1>Contact Page</h1> -->
 
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://picsum.photos/200/50" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/200/50" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/200/50" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container-fluid" style="margin-top: 40px; margin-left: 20px;">
+      <button type="button" style="margin: 15px;" class="btn btn-lg btn-danger example-popover" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Email</button>
+      <button type="button" style="margin: 15px;" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Linkdin</button>
+      <button type="button" style="margin: 15px;" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Facebook</button>
+      <button type="button" style="margin: 15px;" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Instagram</button>
+    </div>
+    <script>
+      var popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
+  container: 'body'
+})
+    </script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
