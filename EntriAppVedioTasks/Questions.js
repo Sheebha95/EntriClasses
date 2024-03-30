@@ -391,27 +391,71 @@
 // }
 // return filterEvenNumbers()
 
-//19. findDuplicates
+// //19. findDuplicates
 
-const findDuplicates=()=>{
-    let input=[1,2,2,3,4,4,5]
-    let output=[], i, j
-    for(i=0;i<input.length;i++){
-        for(j=i+1;j<input.length;j++){
-            if(input[i]==input[j]){
-                if(output.includes(input[i])){
-                    output.push(input[i])
-                    console.log(output)
-            }
+// const findDuplicates=()=>{
+//     let input=[1,2,2,3,4,4,5]
+//     let output=[], i, j
+//     for(i=0;i<input.length;i++){
+//         for(j=i+1;j<input.length;j++){
+//             if(input[i]==input[j]){
+//                 if(!(output.includes(input[i]))){
+//                     output.push(input[i])
+//                     // console.log(output)
+//             }
 
-            }
+//             }
            
-    }
-    }
-    console.log(output)
+//     }
+//     }
+//     console.log(output)
 
-}
-return findDuplicates()
+// }
+// return findDuplicates()
 
+// 20. findIntersection
 
+// const findIntersection=()=>{
+//         let arr1=[1,2,3,4,5]
+//         let arr2=[3,4,5,6,7]
+//         let output=[], i, j
+//         for(i=0;i<arr1.length;i++){
+//             for(j=0;j<arr2.length;j++){
+//                 if(arr1[i]==arr2[j]){
+//                     if(!(output.includes(arr1[i]))){
+//                         output.push(arr1[i])
+//                         // console.log(output)
+//                 }
+    
+//                 }
+               
+//         }
+//         }
+//         console.log(output)
+    
+//     }
+//     return findIntersection()
 
+//21. 
+
+const findUnique=()=>{
+            let arr1=[1,2,3,4,5]
+            let arr2=[3,4,5,6,7]
+            let output=[], i, j, flag=0
+            for(i=0;i<arr1.length;i++){
+                for(j=0;j<arr2.length;j++){
+                    if(arr1[i]==arr2[j]){
+                        arr2.splice(j,1)
+                        flag=1
+                    }
+                }
+                if(flag==0){
+                    output.push(arr1[i])
+                }
+                
+            }
+            output.push(arr2)
+            console.log(output)
+        
+        }
+        return findUnique()
