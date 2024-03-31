@@ -436,26 +436,31 @@
 //     }
 //     return findIntersection()
 
-//21. 
+//21. findUnique
 
-const findUnique=()=>{
-            let arr1=[1,2,3,4,5]
-            let arr2=[3,4,5,6,7]
-            let output=[], i, j, flag=0
-            for(i=0;i<arr1.length;i++){
-                for(j=0;j<arr2.length;j++){
-                    if(arr1[i]==arr2[j]){
-                        arr2.splice(j,1)
-                        flag=1
-                    }
-                }
-                if(flag==0){
-                    output.push(arr1[i])
-                }
+// const findUnique=()=>{
+//             let arr1=[1,2,3,4,5]
+//             let arr2=[3,4,5,6,7]
+//             let output=[], i, j, flag=0
+//             for(i=0;i<arr1.length;i++){
+//                 for(j=0;j<arr2.length;j++){
+//                     if(arr1[i]==arr2[j]){
+//                         arr2.splice(j,1)
+//                         flag=1
+//                     }
+//                 }
+//                 if(flag==0){
+//                     output.push(arr1[i])
+//                 }
                 
-            }
-            output.push(arr2)
-            console.log(output)
+//             }
+//             output.push(arr2)
+//             console.log(output)
         
-        }
-        return findUnique()
+//         }
+//         return findUnique()
+
+1. How do you find the length of a string in JavaScript?
+a. string.length
+
+2. 
