@@ -519,13 +519,8 @@ const isAnagram=()=>{
     let str1="listen"
     let str2="silent",i
     for(i=0;i<=str1.length;i++){
-       
-            if(!(str1[i]!=str2[i])){
-                return true
-            }
-            else{
-                return false
-            }
+        for(i includes str2)
+           
         
     }
     console.log("true")
