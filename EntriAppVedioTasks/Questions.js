@@ -460,7 +460,74 @@
 //         }
 //         return findUnique()
 
-1. How do you find the length of a string in JavaScript?
-a. string.length
+//22. capitalizeFirstLetter
 
-2. 
+// const capitalizeFirstLetter = (str) => {
+//     const First=str.charAt(0);
+
+//     console.log(First);
+//     console.log(First.toUpperCase() + str.slice(1))
+// }
+// return capitalizeFirstLetter("hello world")
+
+//23. countWords
+
+// const countWords=(str)=>{
+//     let state=str.split(" "), count=0
+//     console.log(state)
+//     for(let i=0;i<state.length;i++){
+//         count=count+1
+//     }
+//     console.log(count)
+    
+// }
+// return countWords("This is a sample sentence")
+
+
+//24. reverseWords
+
+// const reverseWords=(str)=>{
+//     let str1=str.split(" ")
+//     console.log(`Thr reverse Words are ${str1[1]} ${str1[0]}`)
+
+// }
+// return reverseWords("Hello World")
+
+//25. removeVowels
+
+    // const removeVowels=(str)=>{
+    //     let al = [ 'a', 'e', 'i', 'o', 'u',  
+    //     'A', 'E', 'I', 'O', 'U' ]; 
+    // let result = ""; 
+
+    // for(let i = 0; i < str.length; i++)  
+    // { 
+   
+    // if (!al.includes(str[i])) 
+    // { 
+    //  result += str[i]; 
+    // } 
+    // } 
+    //     console.log(result)
+
+    // }
+    // return removeVowels("Hello, how are you?")
+
+//26. isAnagram
+
+const isAnagram=()=>{
+    let str1="listen"
+    let str2="silent",i
+    for(i=0;i<=str1.length;i++){
+       
+            if(!(str1[i]!=str2[i])){
+                return true
+            }
+            else{
+                return false
+            }
+        
+    }
+    console.log("true")
+}
+return isAnagram()
