@@ -10,6 +10,7 @@ import { useState } from 'react';
 function App() {
 
     const [cartProducts, setCartProducts] = useState([])
+    console.log("hello")
     const handleAddCart = (product) => {
       setCartProducts(cartProducts =>[...cartProducts, {item:product,quantity:1}])
     }
