@@ -18,7 +18,7 @@ app.use(cors({
   origin: 'http://localhost:5173', // replace with your client origin
 }));
 mongoose.connect(
- "mongodb+srv://ranisheebha:Its123@cluster0.d4u9mqj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+ "mongodb+srv://sheebha:rani123@cluster0.o8fzkn6.mongodb.net/",
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => {
     console.log("Connected to MongoDB");
